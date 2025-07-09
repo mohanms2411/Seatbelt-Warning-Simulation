@@ -15,6 +15,13 @@ This project simulates a basic automotive seatbelt warning system using C++. It 
 - OOP (Classes, Encapsulation)
 - Standard Input/Output
 
+
+## 🧪 How to Compile & Run
+
+```bash
+g++ main.cpp Seat.cpp SeatbeltSystem.cpp -o seatbelt
+./seatbelt
+
 ## 📦 Project Structure
 Seatbelt-Warning-Simulation/
 ├── main.cpp
@@ -23,9 +30,3 @@ Seatbelt-Warning-Simulation/
 ├── SeatbeltSystem.cpp
 ├── SeatbeltSystem.hpp
 └── README.md
-
-## 🧪 How to Compile & Run
-
-```bash
-g++ main.cpp Seat.cpp SeatbeltSystem.cpp -o seatbelt
-./seatbelt
