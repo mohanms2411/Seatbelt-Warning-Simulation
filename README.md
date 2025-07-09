@@ -1,13 +1,22 @@
-# Seatbelt Warning Simulation
+# Seatbelt Warning System Simulation
 
-A C++ simulation of seatbelt warning logic in an automotive instrument cluster.
+This project simulates a basic automotive seatbelt warning system using C++. It reflects logic similar to real instrument clusters used in vehicles.
 
-## Features
+## 🚗 Features
 
-- Simulates 4 seats
-- Takes user input for seat occupancy and seatbelt status
-- Checks for warning condition: occupied seat without seatbelt
-- Outputs warning messages
+- Simulates 4 seats in a car
+- Takes input for seat occupancy and seatbelt status
+- Detects and warns if seat is occupied but seatbelt is OFF
+- Designed using Object-Oriented Programming (OOP)
 
-## Compile & Run
+## 🛠 Technologies
 
+- C++
+- OOP (Classes, Encapsulation)
+- Standard Input/Output
+
+## 🧪 How to Compile & Run
+
+```bash
+g++ main.cpp Seat.cpp SeatbeltSystem.cpp -o seatbelt
+./seatbelt
